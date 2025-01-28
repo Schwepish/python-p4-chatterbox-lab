@@ -214,8 +214,8 @@ create messages with the following attributes:
   - (Hint - we discussed this in the Phase 3 Many-to-Many Relationships reading
     and gave an example in the Phase 4 Building a Get API Reading.)
 
-Once you've created the model, you should initialize the database, generate and
-run the migrations, and use the provided `seed.py` file to seed the database:
+After creating the model and migrations, initialize the database, run the
+migrations and use the provided `seed.py` file to seed the database:
 
 ```console
 $ flask db init
